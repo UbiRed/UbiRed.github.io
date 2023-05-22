@@ -28,7 +28,7 @@ h1:hover {
 /* Paragraph elements */
 p {
     font-family: Perpetua, Rockwell Extra Bold;
-    text-align: justify; /* Justify text within paragraph elements */
+    text-align: justify center; /* Justify text within paragraph elements */
     letter-spacing: 1px; /* This expands the text slightly */
     font-size: 20px;
     padding-left: 20px; /* Adds padding to the left of the paragraph element */
@@ -198,8 +198,8 @@ footer {
     float: left;
     width: 50%; /* This ensures the column takes up half of the page width */
     padding: 10px;
-    padding-top: 3%; /* This ensures there is space between the top of the column and our headings */
-    height: 400px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
+    padding-top: 6%; /* This ensures there is space between the top of the column and our headings */
+    height: 500px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
     background-color: #9dc183; /* Sets the background color of the columns with class Column_1 */
     text-align: center;
 }
@@ -215,8 +215,8 @@ footer {
     float: left;
     width: 50%;
     padding: 10px;
-    padding-top: 1.9%;
-    height: 400px;
+    padding-top: 5%;
+    height: 500px;
     background-color: #043927;
 }
 
