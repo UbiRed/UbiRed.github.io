@@ -8,7 +8,7 @@ This is the README file for your portfolio website. It provides an overview of y
 - [Sections](#sections)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
+- [Usage/Links](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -54,6 +54,8 @@ Once the website is open in your web browser, you can navigate through the diffe
 - **Home**: Read the introduction and click on the call-to-action button to explore more.
 - **About**: Read the detailed information about you as a developer and your skills.
 - **My GitHub Profile**: Click on the provided link to visit your GitHub profile and explore your projects and contributions.
+- [One page website project](./one_page_website/one_page_website.html)
+- [HTML and CSS project](./html_css_project/index.html)
 - **Contact**: Fill in the contact form with your name, email address, and message to get in touch with the website owner.
 
 ## Contributing
