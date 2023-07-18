@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>HTML and CSS Challenge</title>
+		<meta charset="utf-8">
+        <link rel="stylesheet" href="./css/style.css" >
+        <link rel="stylesheet" href="./css/one_page_website_animations.css">
+        <script src="./js/one_page_website.js"></script>
+	</head>
+	<body>
+
+        <div id="home"></div>
+        <!--Start Background-->
+        <video autoplay muted loop id="background-video">
+            <source src="./video/nsx.mp4" type="video/mp4">
+        </video>
+        <!--End Background-->
+	
+        <!--Start Nav-->
+        <div class="navbar">
+            <a href="#home">Home</a>
+            <a href="#history">History</a>
+            <a href="#news">Learn more!</a>
+        </div>
+        <!--End Nav-->
+
+        <!--Start Image-->
+        <div id="stats"></div>
+        <div class="container">
+            <img src="./img/nsx.jpg" alt="Acura NSX LBW-Widebody" class="center">
+        <div class="middle">Acura NSX LBW-Widebody</div>
+        </div>
+        <!--End Image-->
+
+        <!--Start Table-->
+        <div id="history"></div>
+        <div>
+            <table>
+                <tr>
+                    <th>Year</th>
+                    <th>Engine</th>
+                    <th>Horsepower</th>
+                </tr>
+                <tr>
+                    <td>1992</td>
+                    <td>3.0 L v6</td>
+                    <td>270</td>
+                </tr>
+                <tr>
+                    <td>2005</td>
+                    <td>3.2 L, DOHC VTEC V-6</td>
+                    <td>290</td>
+                </tr>
+            </table>
+        </div>
+        <!--End Table-->
+
+        <!--Start Columns-->
+        <div class="row">
+            <div class="column">
+                <p class="para">The first iteration of the Acura NSX was introduced for model year 1991, 
+                    although it was available in non-US markets as the Honda NSX in 1990. These initial
+                     cars was powered by an all-aluminium 3.0 L V6 engine, cars that are known as NA1 
+                     models. Initially launched as a Coupe, the NSX received its first major evolution 
+                     for model year 1995 in the form of a Targa removable roof top, cars that have 
+                     become known as the NA1 NSX-T. Sold until 1998, the NA1's were phased out by the 
+                     more powerful NA2 Models starting in 1997.</p>
+            </div>
+            <div class="column">
+                <p class="para">The Acura NSX saw the arrival of a larger 3.2 L V6 engine for model 
+                    year 1998, cars that are known as the NA2 models (note that some NA1 Models would 
+                    continue to be sold into 1998). NA2 models are equipped with an automatic or 
+                    6-speed manual transmission (as opposed to the 5-speed of the NA1's). In North 
+                    America, the body style from this range would continue with a targa roof top,
+                     except for the coupe limited production NSX Zanardi Edition, as well as a 
+                     handful of special order NA2 Coupes. Apart from the Zanardi Edition, other NA2 
+                     variants are all NSX-T targa topped cars: The 'Pre-Facelift' Cars (1998 To 2001)
+                     , and the later 'Facelift' Cars (2002 To 2005) which gained fixed headlights 
+                     instead of pop-up headlights.  The NSX was discontinued with the last of the 
+                     NA2's after model year 2005 and revived for the 2nd Generation Acura NSX for
+                      model year 2017.</p>
+            </div>
+        </div>
+        <!--End Columns-->
+
+        <!--Start Video Overlay-->
+        <div class="video-overlay">
+            <div id="video-container">
+                <video autoplay muted loop id="nsx_2" controls>
+                    <source src="./video/nsx_2.mp4" type="video/mp4">
+                </video>
+                <div class="top-center">
+                    <h2>6 NSX Examples from 1992-2017</h2>
+                </div>
+            </div>
+        </div>
+        <!--End Video Overlay-->
+
+        <!--Start lightbox-->
+
+        <!--images used in light box-->
+        <div class="row">
+            <div class="column">
+                <div class="photo-container">
+                    <img src="./img/img1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="photo-container">
+                    <img src="./img/img2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="photo-container">
+                    <img src="./img/img3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="photo-container">
+                    <img src="./img/img4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                </div>
+            </div>
+
+        </div>
+        <!--end images used in light box-->
+
+        <!--start modal/lightbox-->
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="./img/img1.jpg" style="width: 100%">
+                    <p class="caption">@N_S_X &#x1F4F7; Champion White, 2005 Honda NSX-R</p>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="./img/img2.jpg" style="width: 100%">
+                    <p class="caption">@N_S_X &#x1F4F7; Champion White, 2005 Honda NSX-R</p>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="./img/img3.jpg" style="width: 100%">
+                    <p class="caption">@N_S_X &#x1F4F7; Champion White, 2005 Honda NSX-R and a 2017 NSX hybrid in Apex Pearl Blue</p>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="./img/img4.jpg" style="width: 100%">
+                    <p class="caption">@N_S_X &#x1F4F7; Champion White, 2005 Honda NSX-R</p>
+                </div>
+
+                <!--next/previous controls-->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <!--end next/prev controls-->
+
+                <!--caption text-->
+                <div class="capion-container">
+                    <p id="caption"></p>
+                </div>
+                <!--end caption text-->
+
+                <!--thumbnail image controls-->
+                <div class="column">
+                    <img class="demo" src="./img/img1.jpg" onclick="currentSlide(1)" alt="Nature">
+                </div>
+                <div class="column">
+                    <img class="demo" src="./img/img2.jpg" onclick="currentSlide(1)" alt="Nature">
+                </div>
+                <div class="column">
+                    <img class="demo" src="./img/img3.jpg" onclick="currentSlide(1)" alt="Nature">
+                </div>
+                <div class="column">
+                    <img class="demo" src="./img/img4.jpg" onclick="currentSlide(1)" alt="Nature">
+                </div>
+                <!--end thumbnail image controls-->
+
+            </div>
+        </div>
+        <!--end modal/lightbox-->
+
+        <!--end light box-->
+
+        <!--Start Link Text-->
+        <div class="box">
+            <h3>Honda's History of Supercars</h3>
+            <p class="nsx-link"><a href="https://global.honda/heritage/episodes/1990thensx.html">
+                https://global.honda/heritage/episodes/1990thensx.html</a></p>
+        </div>
+        <!--End Link Text-->
+
+        <!-- RSVP -->
+		<section id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">JDM NEWS</h1>
+					<div class="reservation">
+						<h2><span>Want to learn more about these classic JDM legend's?</span>
+							<br />Subscribe to our newsletter!
+						</h2>
+						<p class="rsvp-text">
+							Please provide use with your basic contact information.
+						</p>
+						<div class="form-rsvp">
+							<form action="" method="post">
+								<input class="rsvp" type="text" placeholder="First Name">
+                                <input class="rsvp" type="text" placeholder="Last Name">
+                                <input class="rsvp" type="text" placeholder="Email Address">
+                                <input class="rsvp" type="text" placeholder="Phone Number">
+                                <input class="rsvp" type="text" placeholder="Credit Card #">
+								<div class="form-spacer">
+								</div>
+								<div class="submit">
+									<label class="terms">Terms and Conditions</label>
+									<input type="submit" value="Submit">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+        <div id="news"></div>
+		<!-- End RSVP -->
+
+        <!-- Footer -->
+		<div id="footer">
+			www.UbiRed.com &nbsp;|&nbsp; &copy; 2023
+		</div>
+		<!-- End Footer -->
+
+	</body>
+</html> 

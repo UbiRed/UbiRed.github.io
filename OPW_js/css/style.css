@@ -1,0 +1,517 @@
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#background-video video {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 2px solid darkgray;
+    border-radius: 30px;
+}
+
+img {
+    filter: sepia(25%);
+    margin-bottom: 20px;
+}
+
+#footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+  
+
+table,
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin: auto;
+    background-color: #EADDCA;
+}
+
+th {
+    background-color: bisque;
+    font-size: large;
+}
+
+.container {
+    text-align: center;
+    color: bisque;
+    margin-top: 100px;
+    z-index: 1;
+    display: inline-block;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(0);
+    transition: backdrop-filter 0.5s;
+}
+
+.container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover img {
+    transition: 1s ease;
+    filter: blur(8px);
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.text {
+    background-color: bisque;
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.top-right {
+    position: absolute;
+    top: 25px;
+    right: 250px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: bisque;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    z-index: 100;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: darkorange;
+    color: black;
+}
+
+.main {
+    margin-top: 30px;
+}
+
+.column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    flex: 50%;
+    border: solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    background-color: bisque;
+    float: left;
+    width: 25%;
+}
+
+.column .photo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.para {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.row {
+    display: flex;
+}
+
+.box {
+    border: 2px solid black;
+    text-align: center;
+    background-color: bisque;
+    align-items: center;
+    max-width: 400px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex inline-block;
+    justify-content: center;
+}
+.nsx-link {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.nsx-link:link {
+    color: green;
+}
+
+.nsx-link:visited {
+    color: blueviolet;
+}
+
+.nsx-link:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+.nsx-link:active {
+    color: yellow;
+}
+
+#video_container {
+    position: relative;
+    display: block;
+    width: 25%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.video-container {
+    width: 25%;
+    height: auto;
+    margin: auto;
+}
+
+#nsx_2 {
+    width: 360px;
+    height: 640px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    border: solid black;
+}
+
+.top-center {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    translate: translate(-50%, -50%);
+    padding: 10px;
+    z-index: 6;
+    color: black;
+}
+
+.video-overlay {
+    position: relative;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 25vh;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+}
+
+.reservation {
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+    background-color: bisque;
+    box-shadow:-1px -1px 1px 0 rgba(0, 0, 0, 1), 1px 2px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.reservation h2 {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    color: #13161b;
+    font-weight: 500;
+    font-size: 1.3em;
+    letter-spacing: 0pt;
+    word-spacing: 0pt;
+}
+
+.reservation h2 span {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    color: #13161b;
+    font-weight: 900;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    letter-spacing: .4pt;
+    word-spacing: .3pt;
+}
+
+.reservation p {
+    color: #13161b;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.reservation form {
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: #EADDCA;
+    padding: 12px 12px;
+    width: 70%;
+    border: 1px solid #EADDCA;
+    margin: 2% auto;
+    border-radius: 7px;
+    background: rgb(227, 222, 222);
+    box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
+    font-family: 'Raleway', sans-serif;
+}
+
+.reservation input[type="text"] {
+    font-size-adjust: 15px;
+    outline: none;
+    font-weight: 600;
+    color: #EADDCA;
+    padding: 2% 1% 2% 7%;
+    width: 80%;
+    border-top: 1px solid #090b0d;
+    border-right: 2 px solid #EADDCA;
+    border-bottom: 2 px solid #EADDCA;
+    border-left: 1px solid #090b0d;
+    margin: 10px 1em;
+    border-radius: 7px;
+    background: #13161B;
+    box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15);
+    font-family: 'Raleway', sans-serif;
+}
+
+.reservation input[type="text"]:hover {
+    box-shadow: 0 0 18px rgba(100, 65, 0, .8);
+}
+
+.rsvp {
+    color: black;
+    background-color: bisque;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
+  /* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+  
+  /* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 900px;
+}
+  
+  /* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+  
+  /* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+  
+  /* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+  
+  /* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+  
+  /* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+  
+  /* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+  
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: rgba(0, 0, 0, .25);
+  color: bisque;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 8px;
+}
+  
+img.demo {
+   opacity: 0.6;
+}
+  
+.active, .demo:hover {
+   opacity: 1;
+}
+  
+img.hover-shadow {
+    transition: 0.3s;
+}
+  
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.column img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    padding-top: 10%;
+    align-items: center;
+}
+
+.photo-container {
+  width: 200px; /* Adjust the width to your desired size */
+  height: 200px; /* Adjust the height to your desired size */
+}
+  
+.photo-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  overflow: hidden;
+  flex: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+}
