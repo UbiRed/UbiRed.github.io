@@ -146,7 +146,7 @@ footer {
 
 /*Navbar hover effects */
 .Navbar a:hover {
-    background-color: #f4f4f4; /* Defines the background color that will display when you hover over the link */
+    background-color: #B3A78C; /* Defines the background color that will display when you hover over the link */
     color: black; /* This defines the font color that will display when navbar a elements are hovered over */
     font-weight: bold; /* This makes the text on the navbar bold when hovered over */
     cursor: pointer;
@@ -155,7 +155,7 @@ footer {
 
 /* Navbar home button */
 .Navbar a.active { /* This targets the a element on the navbar with the "active" class */
-    background-color: darkgray;
+    background-color: #A2C8D5;
 }
 /***** End of Navbar Styling *****/
 
