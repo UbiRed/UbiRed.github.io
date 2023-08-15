@@ -26,6 +26,12 @@ Welcome to my portfolio website! This website showcases my work as a junior deve
 
 4. **Contact**: The contact section provides visitors with a convenient way to get in touch with you. It typically includes a contact form where users can fill in their name, email address, and message. You may also include links to your social media profiles or other preferred communication channels.
 
+## Javascript Projects
+
+   - [One Page Website with JS](sites/OPW_js): A one-page website project that utilizes JavaScript for interactive elements.
+   - [Pizza Menu](sites/Pizza_Project): A JavaScript project showcasing a dynamic pizza menu.
+   - [Ultimate Tic-tac-toe](sites/Tic-Tac-Toe): An interactive version of the classic game built using JavaScript.
+
 ## Technologies Used
 
 The portfolio website is built using the following technologies:
@@ -57,10 +63,6 @@ Once the website is open in your web browser, you can navigate through the diffe
 - [One page website project](sites/one_page_website)
 - [HTML and CSS project](sites/html_css_project)
 - [Onepage with JS](sites/OPW_js).
-- **JavaScript**: These are some of my projects that I have put together with javascript.
-- [Pizza Menu](sites/Pizza_Project)
-- [Ultimate Tic-tac-toe](sites/Tic-Tac-Toe)
-- [Calculator](sites/Calculator)
 - **Contact**: Fill in the contact form with your name, email address, and message to get in touch with the website owner.
 
 ## Contributing
