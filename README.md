@@ -60,7 +60,7 @@ Once the website is open in your web browser, you can navigate through the diffe
 - **JavaScript**: These are some of my projects that I have put together with javascript.
 - [Pizza Menu](sites/Pizza_Project)
 - [Ultimate Tic-tac-toe](sites/Tic-Tac-Toe)
-- [Calculator](sites/Calculator/calc.html)
+- [Calculator](sites/Calculator)
 - **Contact**: Fill in the contact form with your name, email address, and message to get in touch with the website owner.
 
 ## Contributing
