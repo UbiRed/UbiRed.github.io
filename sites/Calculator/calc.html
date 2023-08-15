@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <meta name="description" content="A basic HTML, CSS and JavaScript Calculator">
+    <meta name="author" content="Keaton K">
+    <!--Link CSS File-->
+    <link rel="stylesheet" href="css/calc.css">
+    <!--Link js file-->
+    <script src="./js/calc.js" defer></script>
+</head>
+
+<body>
+
+
+    <!--This is the main div container that will display the calculator-->
+    <div class="calculator">
+        <!--This input displays the result of the calculation-->
+        <input type="text" class="calculator-screen" value="0" disabled>
+        <!--This section displays all buttons that a user can press to make a calulation-->
+        <div class="calculator-keys">
+
+            <button type="button" class="operator" value="+">+</button>
+            <button type="button" class="operator" value="-">-</button>
+            <button type="button" class="operator" value="*">&times;</button>
+            <button type="button" class="operator" value="/">&divide;</button>
+
+            <button type="button" value="7">7</button>
+            <button type="button" value="8">8</button>
+            <button type="button" value="9">9</button>
+
+            <button type="button" value="4">4</button>
+            <button type="button" value="5">5</button>
+            <button type="button" value="6">6</button>
+
+            <button type="button" value="1">1</button>
+            <button type="button" value="2">2</button>
+            <button type="button" value="3">3</button>
+            
+            <button type="button" value="0">0</button>
+            <button type="button" class="decimal function" value=".">.</button>
+            <button type="button" class="all-clear function" value="all-clear">AC</button>
+
+            <button type="button" class="equal-sign operator" value="=">=</button>
+
+        </div>
+    </div>
+
+
+</body>
