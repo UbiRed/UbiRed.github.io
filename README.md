@@ -54,13 +54,13 @@ Once the website is open in your web browser, you can navigate through the diffe
 - **Home**: Read the introduction and click on the call-to-action button to explore more.
 - **About**: Read the detailed information about you as a developer and your skills.
 - **My GitHub Profile**: Click on the provided link to visit your GitHub profile and explore your projects and contributions.
-- [One page website project](./sites/Oone_page_website)
-- [HTML and CSS project](./sites/html_css_project)
-- [Onepage with JS](./sites/OPW_js).
+- [One page website project](sites/Oone_page_website)
+- [HTML and CSS project](sites/html_css_project)
+- [Onepage with JS](sites/OPW_js).
 - **JavaScript**: These are some of my projects that I have put together with javascript.
-- [Pizza Menu](./sites/Pizza_Project)
-- [Ultimate Tic-tac-toe](./sites/Tic-Tac-Toe)
-- [Calctulator](./sites/Calculator/calc.html).
+- [Pizza Menu](sites/Pizza_Project)
+- [Ultimate Tic-tac-toe](sites/Tic-Tac-Toe)
+- [Calctulator](sites/Calculator).
 - **Contact**: Fill in the contact form with your name, email address, and message to get in touch with the website owner.
 
 ## Contributing
