@@ -6,6 +6,7 @@ This is the README file for your portfolio website. It provides an overview of y
 
 - [Introduction](#introduction)
 - [Sections](#sections)
+- [Js Projects](#Javascript-Projects)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage/Links](#usage)
