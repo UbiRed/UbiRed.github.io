@@ -7,7 +7,7 @@ This is the README file for your portfolio website. It provides an overview of y
 - [Introduction](#introduction)
 - [Sections](#sections)
 - [Js Projects](#Javascript-Projects)
-- [C# and .NET Projects](#C-Sharp-and-.NET-Projects)
+- [C# and .NET Projects](#C#-and-.NET-Projects)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage/Links](#usage)
@@ -34,7 +34,7 @@ Welcome to my portfolio website! This website showcases my work as a junior full
    - [Pizza Menu](sites/Pizza_Project): A JavaScript project showcasing a dynamic pizza menu.
    - [Ultimate Tic-tac-toe](sites/Tic-Tac-Toe): An interactive version of the classic game built using JavaScript.
 
-## C Sharp and .NET Projects
+## C# and .NET Projects
 
    - [CarInsurance](sites/CarInsurance): a basic MVC model that allows a user to input basic info and return a quote based on their input.
    - [NewsLetterAppMVC](sites/NewsLetterAppMVC): Simple website that allows a user to sign up to a newsletter using MVC
